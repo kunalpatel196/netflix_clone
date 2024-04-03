@@ -1,0 +1,237 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "poppins",sans-serif;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.cfnav{
+    background-color: black;
+    color: white;
+    height: 80px;
+    position: fixed;
+    z-index: 999;
+}
+li ul a{
+    text-decoration: none;
+    color: #fff;
+}
+li ul a:hover{
+    color: red;
+    text-decoration: underline;
+}
+.links li{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px;
+    align-items: center;
+    cursor: pointer;
+}
+.navbtn{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 40px;
+}
+.navbtn input{
+    width: 210px;
+    height: 33px;
+    border: none;
+    outline: none;
+    color: rgb(247, 3, 3);
+    border-radius: 15px;
+    padding-left: 5px;
+    margin-right: 10px;
+}
+.navbtn input::placeholder{
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    
+}
+.navbtn img{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+.navbtn img:hover {
+    animation: move 0.5s infinite alternate;
+}
+
+@keyframes move {
+    from {
+        transform: translateY(5px);
+       
+    }
+    to {
+        transform: translateY(-10px);
+       
+        
+    }
+}
+
+
+
+.cfwall{
+    background-image: url('netflix image.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 800px;
+    color: #fff;
+}
+.cfwall .text{
+   padding-top: 265px;
+}
+.text h1{
+    font-size: 80px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.text p{
+    font-weight: bold;
+    margin-bottom: 30px;
+    font-size: 20px;
+}
+.text button{
+    width: 150px;
+    height: 50px;
+    border: none;
+    outline: none;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+}
+.cfmoveislist{
+    background-color: black;
+    color: #ffff;
+    font-weight: bold;
+    padding-top: 50px;
+    height: 1050px;
+}
+.c2:hover{
+    transition: color 0.3s ease-in-out, box-shadow 0.3s ease-in-out, transform 0.3s ease-in-out, border 0.3s ease-in-out;
+    transform: scale(1.08); 
+}
+.cfbanner{
+    background-size: 100% 100%;
+    height: 400px;
+    background-repeat: no-repeat;
+    animation: slider 20s infinite linear; /* Adjusted animation time for smoother transition */
+    position: relative; /* Added position for better z-index control */
+    color: #fff;
+}
+
+@keyframes slider{
+    0%{
+        background-image: url('Netflix.jpg');
+    }
+    20%{
+        background-image: url('netflix (1).jpg');
+    }
+    40%{
+        background-image: url('images.jpg');
+    }
+    60%{
+        background-image: url('how-can-someone-make-this-background-with-html-and-css-i-v0-zjgs096khv591.webp');
+    }
+    80%{
+        background-image: url('Top-10-Netflix-Series-to-Watch-Curative-Artist-1.jpg');
+    }
+    100%{
+        background-image: url('netflix image.jpg'); /* Corrected image file extension */
+    }
+}
+.cfbanner .text2{
+  padding-top: 130px;
+}
+.text2 h1{
+    font-size: 70px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.text2 p{
+    color: rgb(255, 0, 0);
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.text2 button{
+    width: 150px;
+    height: 40px;
+    border: none;
+    outline: none;
+    background-color: red;
+    color: #fff;
+}
+.cfs{
+    margin-top: 150px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding-top: 50px;
+    text-align: center;
+    background-image: url('movie-9pvmdtvz4cb0xl37.jpg');
+   
+}
+
+.mySwiper{
+    background: transparent;
+    
+}
+.swiper-slide image{
+    height: 50%;
+    width: 50%;
+    overflow: hidden;
+}
+
+.video{
+    margin-top: 50px;
+
+}
+.video .c6{
+    margin-top: 100px;
+}
+.video .c6 h1{
+    font-size: 55px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.video .videompv img{
+    position: relative;
+    top: -324px;
+    width: 100%;
+    
+}
+.cfmoveislist .hr{
+    width: 100%;
+    border: 6px solid rgb(60, 60, 60) ;
+}
+.viddeo_d{
+    border: 2px solid rgb(60, 60, 60);
+    border-radius: 25px;
+    align-items: center;
+    height: 150px;
+    width: 70%;
+    padding-left: 20px;
+    margin-left: 50px;
+    position: relative;
+    top: -170px;
+    background-color: black;
+    font-size: 14px;
+}
+.cfmoveislist video{
+    border-radius: 15px;
+}
+.lastcf{
+    margin-top: 500px;
+    background: rgb(1, 21, 24);
+    padding-top: 50px;
+    height: 500px;
+}
+.lastcf a{
+    text-decoration: none;
+}
+.lastinpu input::placeholder{
+    font-weight: bold;
+    color: rgb(32, 21, 21);
+}
